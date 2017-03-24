@@ -1,0 +1,10 @@
+body {
+    font-size:30px;
+}
+a#link { color: aqua; }		
+#link { color: red; }
+a[title="link"] { color: yellow; }
+a:link { color: black; }
+a.link { color: orange; }
+.link { color: purple; }
+a { color: pink; }

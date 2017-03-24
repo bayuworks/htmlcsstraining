@@ -2,15 +2,22 @@
 
 * This quiz is taken from Mitrais e-learning Internal Training
 
-Please Choose the correct answer
+## Instruction
+* Please Choose the correct answer
 and write your answer in simple plain text format
 eg:
-```
-1.a
-2.b
-...
-```
-and send result to email: bayu.rizaldhanrayes@mitrais.com
+    ```
+    1.a
+    2.b
+    ...
+    ```
+* Close book/internet. Please no googling
+
+## Submitting your result
+* save your text file using this format ```HTML_Quiz_<yourname>.zip```, eg: ```HTML_Quiz_WellyaSeptin.zip```
+* Send result to email: bayu.rizaldhanrayes@mitrais.com
+
+## Questions
 
 1.  What does HTML stands for?
     * a. HyperText Markup Language
@@ -77,7 +84,7 @@ and send result to email: bayu.rizaldhanrayes@mitrais.com
     * d. ```<body>```
 
 
-10.  Which one is not HTML attribute?
+10. Which one is not HTML attribute?
     * a. title
     * b. script
     * c. id

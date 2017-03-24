@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    
+    <h1>Simple table</h1>
+    <table>
+        <tr>
+          <td>Make</td>
+          <td>Model</td>
+          <td>Price</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>Corolla</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>Kijang Innova</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>86</td>
+          <td>800K</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>Jazz</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>CR-V</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>Civic</td>
+          <td>500K</td>
+        </tr>
+    </table>
+    
+    
+    
+    <h1>Table With better structure</h1>
+    <table summary="This table list the car pricing">
+      <caption>Cars Pricing</caption>
+      <thead>
+        <tr>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>
+            Price excluding tax
+          </td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Toyota</td>
+          <td>Corolla</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>Kijang Innova</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>86</td>
+          <td>800K</td>
+        </tr>
+        
+        <tr>
+          <td>Honda</td>
+          <td>Jazz</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>CR-V</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>Civic</td>
+          <td>500K</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    
+    <h1>Spanning Columns and Rows</h1>
+    <table summary="This table list the car pricing">
+      <caption>Cars Pricing</caption>
+      <thead>
+        <tr>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="3">
+            Price excluding tax
+          </td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td rowspan="3">Toyota</td>
+          <td>Corolla</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>Kijang Innova</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>86</td>
+          <td>800K</td>
+        </tr>
+        
+        <tr>
+          <td rowspan="3">Honda</td>
+          <td>Jazz</td>
+          <td>350K</td>
+        </tr>
+        <tr>
+          <td>CR-V</td>
+          <td>300K</td>
+        </tr>
+        <tr>
+          <td>Civic</td>
+          <td>500K</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </body>
+
+</html>

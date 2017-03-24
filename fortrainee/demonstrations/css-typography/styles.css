@@ -1,0 +1,12 @@
+body {
+    font-size:30px;
+}
+h1 {
+    font-family: Verdana, Arial;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-weight:normal;
+    line-height:30px;
+    /* other typography related */
+}

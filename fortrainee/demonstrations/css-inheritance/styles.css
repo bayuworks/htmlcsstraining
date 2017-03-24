@@ -1,0 +1,6 @@
+* { color: red; }
+#wrapper { color: black; }
+h1 { color: pink; }
+.imp { color: black; }
+a { color: yellow; }
+#menu .active { color: orange; } 

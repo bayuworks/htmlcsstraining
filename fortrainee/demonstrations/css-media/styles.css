@@ -1,0 +1,14 @@
+@media screen {
+    body { font-size: 13px }
+    p {
+        border:solid 1px #ababab;
+        padding:30px;
+    }
+}
+
+@media print {
+    body { font-size: 30pt }
+}
+@media screen, print {
+    body { line-height: 1.2 }
+}

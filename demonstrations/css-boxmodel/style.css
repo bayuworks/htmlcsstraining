@@ -1,0 +1,40 @@
+/* Styles go here */
+
+.boxes {
+}
+
+.box {
+  background:Fuchsia;
+  color:#fff;
+  border:solid 1px #000;
+  width:300px;
+  height:150px;
+}
+
+.box1{
+}
+
+.box2 {
+
+}
+
+.box3 {
+}
+
+.container {
+  width:100%;
+  clear:both;
+}
+
+.content, .sidebar {
+  float:left;
+}
+
+.content {
+  background:Gray;
+  width:50%;
+}
+
+.sidebar {
+  width:50%;
+}

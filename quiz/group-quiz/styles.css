@@ -1,0 +1,33 @@
+#example {
+    font-family: Verdana, san-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+p { 
+    margin: 0; 
+}
+#div-before, #div-after {
+    background-color: aqua;
+    color: black;
+}
+#div-1 {
+    background-color: black;
+    color: white;
+    width:380px;
+    padding: 10px;
+    position: relative;
+}
+#div-1a {
+    background-color: red;
+    color: white;
+}
+#div-1b {
+    background-color: yellow;
+    color: black;
+}
+#div-1c {
+    background-color: blue;
+    color: white;
+}

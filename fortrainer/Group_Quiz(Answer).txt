@@ -1,0 +1,14 @@
+Answer of Group Quiz (Positioning)
+----------------------------------
+1. Relative, left: 20px
+2. Absolute, left: 20px
+3. Absolute, left: 20px, top:0
+4. Absolute, left:0, top:0
+5. Absolute, bottom:0
+6. Relative/Static
+7. Fixed, top:0, right:0
+8. Absolute, top:0, right:0
+9. Float: right
+10. Absolute, right: 10px
+11. Relative/Static
+
